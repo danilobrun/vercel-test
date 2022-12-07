@@ -1,0 +1,70 @@
+
+Para analisar 
+1 - highlight não funciona 
+2 - topbar.js tenho que importar todos os dropdown no de Victor só o principal basta.
+3 - Importante aprendendo usar map aula 08/05 - 01:50
+4 - Estudar as hooks (useEffect, useState, useParams)
+
+Aula - 04/04
+views/Portals/index.js
+views/Courses/index.js
+CoursesView = PortalsView
+
+Aula - 11/04 
+final da aula fala sobre aplicar img nos cards.
+Pêndencias: 
+1 - Hospedar API (heroku problema verificar firebase)
+2 - Corrigir proporção da imagem dos cards (usei object-fit: cover)
+CardsPortals
+const CardImgStyled = styled(Card.Img)`
+    width: 100%;
+    height: 15vw;
+    object-fit: contain;
+` 
+
+Aula - 18/04 - 01:01
+Para mostrar de forma incremental o as requisições via index pra ficar númeral 1,2,3
+minuto 58, hoje o jogo # é como se fosse a matricula, o ingresso ou etc...
+
+Aula - 20/04 - Falta Notion
+
+Aula - 25/04 - 
+Feature para aplicar o botão de olho para habilitar o input do password
+https://react-bootstrap.github.io/forms/input-group/
+Buttons addons -> botaríamos no button direito algum ícone do fontawesome do olhinho
+quando o usuário clicar no buttom o onClick muda o estado (true/false) alterando o campo
+form.control o type='password' para 'text'
+
+Aula 27/04
+
+Aula - 08/05 - 03:13
+1 - CRUD
+2 - Tipo de CRUD com upload de arquivos (clodinary, google cloud store, amazon s3)
+3 - Fazer o isSubmit no AdminEditPortal para impedir do usuário submeter mais de uma vez.
+4 - Final do curso Victor explica como adicionar o Heroku CLI para subir manualmente para o heroku.
+
+
+Aula - 04/05 - Não tem no portal analisar.
+Aula - 09/05 - Não tem no portal analisar.
+Aula - 11/05 - Tem aula no portal.
+
+Aula - 10/05 - Firebase - 11:59
+
+04/08 - 10:00
+Hospedar API no heroku config Heroku e Netlify tudo pela aula gravada de api
+Lucas acessou 
+1727* git status
+ 1728* git pull origin main
+ 1729  pwd
+ 1730  git pull
+ 1731* git config pull.rebase true
+ 1732  git config.pull.rebase true
+ 1733  git status
+ 1734  git branch
+ 1735  git pull
+ 1736  git status
+ 1737  git push
+ 1738  git status
+
+api: npm run start-dev
+front-end: npm run start
